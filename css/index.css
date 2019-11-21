@@ -180,3 +180,13 @@ body {
 .skills {
   display: flex;
 }
+table th td {
+  border: 1px solid;
+}
+footer {
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: darkslategrey;
+}
