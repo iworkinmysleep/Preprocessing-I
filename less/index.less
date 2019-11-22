@@ -54,6 +54,7 @@ html, body {
 		height: 100%;
 }
 @paragraph:20px;
+@heading-color:dodgerblue;
 
 .container{
 	width: 60%;
@@ -104,11 +105,40 @@ html, body {
 }
 .skills{
 	display:flex;
+	h3{
+		font-weight: bold;
+		font-size: 20px;
+		padding:@paragraph
+	}
+	p{
+		padding: @paragraph;
+	}
+	ul{
+		font-weight: bold;
+		font-size:18px;
+		padding:10px;
+		li{
+			font-style: italic;
+			margin-top:10px
+		}
+	}
+}
+.history{
+	display:flex;
+	flex-direction: column;
+	width:100%;
+	margin:0 auto;
+	h3{
+		font-weight: bold;
+		font-size: 20px;
+		padding:@paragraph;
+	}
 }
 .wrk-table tr td{
 	border: 1px solid;
 	text-align:center;
 	width:100px;
+	font-size: 18px;
 }
 footer{
 	margin: 0 auto;
